@@ -1,8 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CoreModule } from './core/core.module'
-import { AppRoutingModule } from './app-routing/app-routing.module';
-import { BrowserModule } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-root',
@@ -16,7 +15,7 @@ export class AppComponent {
 
 @NgModule({
   declarations :[AppComponent],
-  imports:[CoreModule, BrowserModule, AppRoutingModule],
+  imports:[CoreModule],
   providers: [],
   bootstrap: [AppComponent],
 })
