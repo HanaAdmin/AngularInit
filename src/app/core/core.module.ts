@@ -4,6 +4,8 @@ import { UiModule } from '../ui/ui.module';
 import { IconsModule } from '../icons/icons.module';
 import { TemplatesModule } from '../templates/templates.module';
 import { LoginModule } from '../login/login.module';
+import { AppRoutingModule } from '../app-routing/app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 
@@ -11,6 +13,6 @@ import { LoginModule } from '../login/login.module';
   declarations: [],
   imports: [
     CommonModule
-  ], exports: [UiModule, IconsModule, TemplatesModule, LoginModule]
+  ], exports: [UiModule, IconsModule, TemplatesModule, LoginModule, BrowserModule, AppRoutingModule]
 })
 export class CoreModule { }
