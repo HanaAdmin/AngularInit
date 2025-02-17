@@ -14,9 +14,9 @@ export class AppComponent {
 }
 
 @NgModule({
-  declarations :[AppComponent],
+  declarations :[],
   imports:[CoreModule],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [],
 })
 export class AppMpdule {}
